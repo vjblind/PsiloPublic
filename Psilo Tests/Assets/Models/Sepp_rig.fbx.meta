@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 07805df8c1b3a6c449e6c3daed27d7e7
+timeCreated: 1486358333
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: FootControl.L
+    100002: FootControl.L_end
+    100004: FootControl.R
+    100006: FootControl.R_end
+    100008: Hand.L
+    100010: Hand.L_end
+    100012: Hand.R
+    100014: Hand.R_end
+    100016: Hat.002
+    100018: Hat.002_end
+    100020: Hat.004
+    100022: Hat.004_end
+    100024: Hat.006
+    100026: Hat.006_end
+    100028: Hat.008
+    100030: Hat.008_end
+    100032: Head
+    100034: Head.001
+    100036: LowerArm.L
+    100038: LowerArm.R
+    100040: LowerLeg.L
+    100042: LowerLeg.L.001
+    100044: LowerLeg.L.001_end
+    100046: LowerLeg.R
+    100048: LowerLeg.R.001
+    100050: LowerLeg.R.001_end
+    100052: neck
+    100054: Pelvis
+    100056: Psilo Body
+    100058: Psilo Mesh
+    100060: //RootNode
+    100062: Shoulder.L
+    100064: Shoulder.R
+    100066: Spine 1
+    100068: Spine 1.001
+    100070: Spine 2
+    100072: UpperArm.L
+    100074: UpperArm.R
+    100076: UpperLeg.L
+    100078: UpperLeg.R
+    400000: FootControl.L
+    400002: FootControl.L_end
+    400004: FootControl.R
+    400006: FootControl.R_end
+    400008: Hand.L
+    400010: Hand.L_end
+    400012: Hand.R
+    400014: Hand.R_end
+    400016: Hat.002
+    400018: Hat.002_end
+    400020: Hat.004
+    400022: Hat.004_end
+    400024: Hat.006
+    400026: Hat.006_end
+    400028: Hat.008
+    400030: Hat.008_end
+    400032: Head
+    400034: Head.001
+    400036: LowerArm.L
+    400038: LowerArm.R
+    400040: LowerLeg.L
+    400042: LowerLeg.L.001
+    400044: LowerLeg.L.001_end
+    400046: LowerLeg.R
+    400048: LowerLeg.R.001
+    400050: LowerLeg.R.001_end
+    400052: neck
+    400054: Pelvis
+    400056: Psilo Body
+    400058: Psilo Mesh
+    400060: //RootNode
+    400062: Shoulder.L
+    400064: Shoulder.R
+    400066: Spine 1
+    400068: Spine 1.001
+    400070: Spine 2
+    400072: UpperArm.L
+    400074: UpperArm.R
+    400076: UpperLeg.L
+    400078: UpperLeg.R
+    4300000: Psilo Mesh
+    7400000: PsiloRun
+    9500000: //RootNode
+    13700000: Psilo Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PsiloRun
+      takeName: Psilo Body|Run
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: motionZ
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0.56
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - serializedVersion: 2
+            time: 1
+            value: 0.56
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 0
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Psilo Body
+        weight: 1
+      - path: Psilo Body/FootControl.L
+        weight: 1
+      - path: Psilo Body/FootControl.L/FootControl.L_end
+        weight: 1
+      - path: Psilo Body/FootControl.R
+        weight: 1
+      - path: Psilo Body/FootControl.R/FootControl.R_end
+        weight: 1
+      - path: Psilo Body/Spine 1.001
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Pelvis
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Pelvis/UpperLeg.L
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Pelvis/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Pelvis/UpperLeg.L/LowerLeg.L/LowerLeg.L.001
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Pelvis/UpperLeg.L/LowerLeg.L/LowerLeg.L.001/LowerLeg.L.001_end
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Pelvis/UpperLeg.R
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Pelvis/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Pelvis/UpperLeg.R/LowerLeg.R/LowerLeg.R.001
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Pelvis/UpperLeg.R/LowerLeg.R/LowerLeg.R.001/LowerLeg.R.001_end
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/neck
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/neck/Head
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/neck/Head/Head.001
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/neck/Head/Head.001/Hat.002
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/neck/Head/Head.001/Hat.002/Hat.002_end
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/neck/Head/Head.001/Hat.004
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/neck/Head/Head.001/Hat.004/Hat.004_end
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/neck/Head/Head.001/Hat.006
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/neck/Head/Head.001/Hat.006/Hat.006_end
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/neck/Head/Head.001/Hat.008
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/neck/Head/Head.001/Hat.008/Hat.008_end
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/Shoulder.L
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/Shoulder.R
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Psilo Body/Spine 1.001/Spine 1/Spine 2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Psilo Mesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Spine 1.001
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.L.001
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.R.001
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine 1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine 2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hat.008
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hat.006
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hat.002
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Sepp_rig(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Psilo Body
+      parentName: Sepp_rig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Spine 1.001
+      parentName: Psilo Body
+      position: {x: -0.0000072890657, y: 0.0015867471, z: 0.0266065}
+      rotation: {x: -0.009007782, y: -0.000000013018085, z: 0.000000006005525, w: 0.99995947}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Spine 1
+      parentName: Spine 1.001
+      position: {x: 1.1525069e-18, y: 2.9802322e-10, z: -2.6077032e-10}
+      rotation: {x: 0.6868972, y: -0.000000093862944, z: -0.00000007558573, w: 0.72675467}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Spine 2
+      parentName: Spine 1
+      position: {x: 8.971046e-14, y: 0.0068702525, z: 1.693759e-10}
+      rotation: {x: -0.05485922, y: 0.00000023665372, z: -0.000000014551411, w: 0.99849415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck
+      parentName: Spine 2
+      position: {x: 5.7311485e-13, y: 0.008829657, z: 3.5515053e-11}
+      rotation: {x: 0.036744907, y: -0.00000023488913, z: -0.000000008088891, w: 0.99932474}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Head
+      parentName: neck
+      position: {x: -1.4285461e-13, y: 0.0015412479, z: 1.7378487e-12}
+      rotation: {x: 0.03638645, y: 0.00004451438, z: -0.0010044484, w: 0.9993374}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1}
+    - name: Head.001
+      parentName: Head
+      position: {x: 1.11758706e-10, y: 0.023538003, z: -1.7811544e-10}
+      rotation: {x: -0.30340096, y: 0.052907776, z: -0.049218006, w: 0.95011914}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Hat.002
+      parentName: Head.001
+      position: {x: -0.0009967856, y: -0.0024892197, z: 0.012098112}
+      rotation: {x: -0.07304186, y: 0.38215947, z: 0.9211969, w: -0.00392197}
+      scale: {x: 1.0000005, y: 1.0000007, z: 0.9999997}
+    - name: Hat.002_end
+      parentName: Hat.002
+      position: {x: -0, y: 0.01532168, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hat.004
+      parentName: Head.001
+      position: {x: 0.002843379, y: 0.001130777, z: -0.01851275}
+      rotation: {x: 0.8561523, y: 0.06096226, z: 0.040411785, w: -0.51152116}
+      scale: {x: 1.0000001, y: 1.0000014, z: 1.0000012}
+    - name: Hat.004_end
+      parentName: Hat.004
+      position: {x: -0, y: 0.012890652, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hat.006
+      parentName: Head.001
+      position: {x: 0.012449897, y: 0.00083790405, z: -0.0015753711}
+      rotation: {x: 0.53765607, y: 0.3997002, z: 0.6194547, w: -0.4091964}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: Hat.006_end
+      parentName: Hat.006
+      position: {x: -0, y: 0.018594237, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hat.008
+      parentName: Head.001
+      position: {x: -0.014629025, y: -0.0002932018, z: -0.005641099}
+      rotation: {x: 0.58951396, y: -0.3749352, z: -0.5707627, w: -0.43142414}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000004}
+    - name: Hat.008_end
+      parentName: Hat.008
+      position: {x: -0, y: 0.013409991, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder.L
+      parentName: Spine 2
+      position: {x: -0.0028934467, y: 0.0067380965, z: -0.0003896055}
+      rotation: {x: -0.3495688, y: 0.5414131, z: 0.47129583, w: 0.6021244}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.99999994}
+    - name: UpperArm.L
+      parentName: Shoulder.L
+      position: {x: 5.9604643e-10, y: 0.003957406, z: 0.0000000020768494}
+      rotation: {x: -0.17571025, y: 0.009776468, z: -0.016927294, w: 0.98424786}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000002}
+    - name: LowerArm.L
+      parentName: UpperArm.L
+      position: {x: -0.0000000021792947, y: 0.008860847, z: -9.685754e-10}
+      rotation: {x: -0.05024846, y: 0.0018509207, z: 0.0030212398, w: -0.99873054}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000006}
+    - name: Hand.L
+      parentName: LowerArm.L
+      position: {x: -8.4798013e-10, y: 0.0075924727, z: 0}
+      rotation: {x: -0.082814574, y: -0.0000057379925, z: 0.00006590926, w: 0.99656504}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+    - name: Hand.L_end
+      parentName: Hand.L
+      position: {x: -0, y: 0.0037258693, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder.R
+      parentName: Spine 2
+      position: {x: 0.0028934467, y: 0.0067380965, z: -0.00038960407}
+      rotation: {x: -0.34956858, y: -0.5414135, z: -0.47129574, w: 0.6021242}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999999}
+    - name: UpperArm.R
+      parentName: Shoulder.R
+      position: {x: 2.2351741e-10, y: 0.0039574057, z: 0.0000000035203993}
+      rotation: {x: 0.17571074, y: 0.00977653, z: -0.016927224, w: -0.9842478}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: LowerArm.R
+      parentName: UpperArm.R
+      position: {x: -0.000000002151355, y: 0.008860848, z: 0.000000001490116}
+      rotation: {x: 0.05024891, y: 0.0018507226, z: 0.003020957, w: 0.9987304}
+      scale: {x: 0.9999999, y: 1.0000005, z: 1.0000002}
+    - name: Hand.R
+      parentName: LowerArm.R
+      position: {x: -9.434168e-10, y: 0.0075924722, z: -0.0000000019371509}
+      rotation: {x: -0.082813464, y: 0.000005546142, z: -0.000065963184, w: 0.9965651}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+    - name: Hand.R_end
+      parentName: Hand.R
+      position: {x: -0, y: 0.0037258693, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis
+      parentName: Spine 1.001
+      position: {x: 1.1525069e-18, y: 2.9802322e-10, z: -2.6077032e-10}
+      rotation: {x: 0.6681602, y: 0.00000026635146, z: -0.00000024047958, w: -0.7440175}
+      scale: {x: 1, y: 1.0000008, z: 1.000001}
+    - name: UpperLeg.L
+      parentName: Pelvis
+      position: {x: -0.0050824415, y: 0.004111123, z: 0.0011972947}
+      rotation: {x: -0.016872045, y: 0.9878593, z: -0.08449364, w: 0.12926817}
+      scale: {x: 1.0000011, y: 1.0000018, z: 1.0000005}
+    - name: LowerLeg.L
+      parentName: UpperLeg.L
+      position: {x: 3.72529e-10, y: 0.010952726, z: -4.4703483e-10}
+      rotation: {x: -0.17983238, y: 0.19650783, z: 0.1127978, w: 0.95724696}
+      scale: {x: 1.0000002, y: 0.99999845, z: 0.99999994}
+    - name: LowerLeg.L.001
+      parentName: LowerLeg.L
+      position: {x: 7.4505804e-11, y: 0.009692382, z: -1.11758706e-10}
+      rotation: {x: 0.76738536, y: -0.027659997, z: -0.02442077, w: 0.6401236}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999999}
+    - name: LowerLeg.L.001_end
+      parentName: LowerLeg.L.001
+      position: {x: -0, y: 0.005402215, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg.R
+      parentName: Pelvis
+      position: {x: 0.005082444, y: 0.004111124, z: 0.0011972873}
+      rotation: {x: 0.016871953, y: 0.98785925, z: -0.08449363, w: -0.1292689}
+      scale: {x: 1.0000015, y: 1.0000013, z: 1.0000007}
+    - name: LowerLeg.R
+      parentName: UpperLeg.R
+      position: {x: 7.45058e-10, y: 0.010952729, z: -5.9604643e-10}
+      rotation: {x: -0.17983234, y: -0.19650787, z: -0.112797774, w: 0.9572469}
+      scale: {x: 1.0000007, y: 0.99999976, z: 1.0000001}
+    - name: LowerLeg.R.001
+      parentName: LowerLeg.R
+      position: {x: -1.6298145e-10, y: 0.009692384, z: -2.1420418e-10}
+      rotation: {x: 0.7673851, y: 0.02765996, z: 0.024420777, w: 0.64012384}
+      scale: {x: 1.0000001, y: 1.0000006, z: 0.99999994}
+    - name: LowerLeg.R.001_end
+      parentName: LowerLeg.R.001
+      position: {x: -0, y: 0.005402215, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FootControl.L
+      parentName: Psilo Body
+      position: {x: -0.0036028211, y: 0.013339264, z: 0.006390978}
+      rotation: {x: 0.0014881194, y: 6.441223e-10, z: 0.000000003865278, w: 0.9999989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FootControl.L_end
+      parentName: FootControl.L
+      position: {x: -0, y: 0.0057429248, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FootControl.R
+      parentName: Psilo Body
+      position: {x: 0.0044553075, y: -0.0020201602, z: 0.0011885916}
+      rotation: {x: 0.0014881194, y: 6.441223e-10, z: 0.000000003865278, w: 0.9999989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FootControl.R_end
+      parentName: FootControl.R
+      position: {x: -0, y: 0.0057429248, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Psilo Mesh
+      parentName: Sepp_rig(Clone)
+      position: {x: -0, y: 0, z: -0.000000014901161}
+      rotation: {x: -0.78642076, y: 0.033490144, z: -0.025381928, w: 0.6162601}
+      scale: {x: 320.50616, y: 320.50613, z: 127.630264}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: b235179bd2a63d1468dd430670338c55,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
